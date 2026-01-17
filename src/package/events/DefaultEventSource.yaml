@@ -1,0 +1,4 @@
+events:
+  - name: HapticMouseHover
+    displayName: Haptic Mouse Hover
+    description: Provides haptic feedback when the mouse hovers over a clickable control.
