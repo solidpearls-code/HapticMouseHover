@@ -1,6 +1,6 @@
 # Haptic Mouse Hover Plugin
 
-A plugin for Logi/Loupedeck devices that provides haptic feedback when the mouse cursor hovers over clickable controls.
+A plugin for Logi/Loupedeck devices (such as MX MASTER 4) that provides haptic feedback when the mouse cursor hovers over clickable controls.
 
 ## Features
 
@@ -44,7 +44,7 @@ LogiPluginExamplePlugin/
 
 ### Core Implementation
 
-- **MouseHoverDetector**: Polls the element at the mouse cursor position using Windows UIAutomation
+- **MouseHoverDetector**: Polls the element at the mouse cursor position using Windows UIAutomation.
 - **Clickable Element Detection**: Supports the following patterns:
   - InvokePattern (buttons, etc.)
   - TogglePattern (checkboxes, etc.)
@@ -58,9 +58,9 @@ solidpearls
 
 ## Notes
 
-- This plugin is Windows-only
-- Some applications may not work properly due to the use of UIAutomation
-- The polling interval is set to 10ms but can be adjusted according to system performance
+- This plugin is Windows-only.
+- Some applications may not work properly due to the use of UIAutomation.
+- The polling interval is set to 10ms but can be adjusted according to system performance.
 
 ## License
 
@@ -68,4 +68,4 @@ MIT License
 
 Copyright © 2026 solidpearls. All rights reserved.
 
-See [LICENSE](https://opensource.org/licenses/MIT) for details.
+See [LICENSE] for details.
